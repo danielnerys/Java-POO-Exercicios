@@ -22,8 +22,5 @@ abstract class Conta{
         return saldo;
     }
 
-    public double calcularRendimento(){
-        double rendimento = 0;
-        return rendimento;
-    }
+    public abstract double calcularRendimento();
 }

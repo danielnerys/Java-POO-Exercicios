@@ -11,5 +11,10 @@ class ContaCorrente extends Conta {
             setSaldo(getSaldo() - valorFinal);
         }
     }
+    @Override
+    public double calcularRendimento(){
+        return 0;
+    }
+
 }
 

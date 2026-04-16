@@ -48,7 +48,11 @@ public class Main {
                     System.out.println("Saldo: " + conta.getSaldo());
                     break;
                 case 4:
-                    System.out.println("Rendimentos: " + conta.calcularRendimento());
+                    System.out.printf("Rendimentos: %.2f \n", conta.calcularRendimento());
+                    break;
+                case 5:
+                    System.out.println("Encerrando programa..");
+                    continuarRodando = false;
                     break;
             }
         }while(continuarRodando);
